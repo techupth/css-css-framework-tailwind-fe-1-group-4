@@ -10,7 +10,23 @@
 </head>
 
 <body>
-  <!-- Start coding here -->
+ 
+<body class="bg-slate-200 flex justify-center items-center h-screen">
+  <div class="bg-white rounded-xl p-8">
+    <h1 class="text-zinc-600 text-xl mb-4">Login to Website</h1>
+    <form>
+      <div class="mb-4">
+        <input type="text" placeholder="Username" class="border border-zinc-600 rounded p-2 w-full transition-colors duration-300 focus:border-violet-300 hover:border-violet-500" />
+      </div>
+      <div class="mb-6">
+        <input type="password" placeholder="Password" class="border border-zinc-600 rounded p-2 w-full transition-colors duration-300 focus:border-violet-300 hover:border-violet-500" />
+      </div>
+      <div class="flex justify-between">
+        <button type="submit" class="w-36 p-2 rounded-full bg-violet-500 text-white hover:bg-violet-400 focus:ring-2 focus:ring-violet-300 focus:outline-none focus:ring-offset-2 focus:ring-offset-white active:bg-violet-600">Sign in</button>
+        <button type="button" class="w-36 p-2 rounded-full bg-white border border-zinc-600 text-zinc-600 hover:bg-violet-100 focus:ring-2 focus:ring-violet-300 focus:outline-none focus:ring-offset-2 focus:ring-offset-white">Sign up</button>
+      </div>
+    </form>
+  </div>
 </body>
 
 </html>
